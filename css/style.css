@@ -1,0 +1,8 @@
+@import './global/global.css';
+@import './global/header.css';
+@import './global/color.css';
+@import './homepage/main.css';
+@import './aboutme/main.css';
+@import './curriculum/main.css';
+@import './myprojects/main.css';
+@import './contact/main.css';

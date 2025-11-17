@@ -1,0 +1,142 @@
+.main_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 30px 80px 30px;
+}
+.content_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.h1_contact {
+  font-size: 40px;
+}
+.h2_contact {
+  font-size: 20px;
+}
+.link_contact_email {
+  font-size: 12px;
+  position: relative;
+}
+.link_contact_email::before {
+  content: "";
+  display: block;
+  width: 214px;
+  height: 2px;
+  background-color: #0c0619;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 2px;
+}
+.link_contact_lin {
+  font-size: 12px;
+  position: relative;
+}
+.link_contact_lin::before {
+  content: "";
+  display: block;
+  width: 154px;
+  height: 2px;
+  background-color: #0c0619;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 2px;
+}
+.p_contact {
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .main_contact {
+    padding: 20px 100px 80px 100px;
+  }
+}
+@media (min-width: 900px) {
+  .main_contact {
+    padding: 80px 100px 80px 100px;
+  }
+  .h1_contact {
+    font-size: 96px;
+    position: relative;
+  }
+  .h1_contact::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #ff9de2;
+    border-radius: 50%;
+    z-index: -1;
+    top: -28px;
+    left: -53px;
+  }
+  .email_contact {
+    position: relative;
+  }
+  .email_contact::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url("../../assets/mail.svg");
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 15px;
+  }
+  .linkedin_contact {
+    position: relative;
+  }
+  .linkedin_contact::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url("../../assets/linkedin.svg");
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 15px;
+  }
+  .phone_contact {
+    position: relative;
+  }
+  .phone_contact::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url("../../assets/phone.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: -40px;
+    top: 15px;
+  }
+  .h2_contact {
+    font-size: 40px;
+  }
+  .link_contact_email {
+    font-size: 20px;
+  }
+  .link_contact_email::before {
+    width: 356px;
+  }
+  .link_contact_lin {
+    font-size: 20px;
+  }
+  .link_contact_lin::before {
+    width: 252px;
+  }
+  .phone_contact {
+    display: flex;
+    gap: 10px;
+  }
+  .p_contact {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  .main_contact {
+    padding: 80px 270px 80px 270px;
+  }
+}
